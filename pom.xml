@@ -86,7 +86,7 @@
 							<outputDirectory>${basedir}/target/classes/static</outputDirectory>
 							<resources>
 								<resource>
-									<directory>C:/helm/New folder/react-App/build</directory>
+									<directory>${basedir}/src/react-App/build</directory>
 								</resource>
 							</resources>
 						</configuration>
@@ -116,6 +116,7 @@
 					</execution>
 				</executions>
 			</plugin>
+
 
 
 		</plugins>
